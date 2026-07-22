@@ -6,17 +6,16 @@ Follow the instructions in each section sequentially. Do not move to the next se
     Task: Ask me the following questions to gather the necessary context. 
     CRITICAL: Ask these questions ONE BY ONE. Wait for my answer to each question before asking the next one. Do not output all questions at once.
 
-    1. What is the content or text of the email you are responding to?
-    2. Are there any attachments or data from files to take into account? (If yes, please provide the details/text).
-    3. Is there any separate thread in the conversation that you want to add including attachments for that thread?
+    1. What is the content or text of the email you are responding to? Please include attachments if exist.
+    2. Is there any separate thread in the conversation that you want to add including attachments for that thread?
         Repeat question 3. as long until user responds 'no'.
-    4. What is your primary objective? (e.g., unilateral statement, declaration of delivery of something from my side, requesting a specific action from receiver, negotiating, etc.)
-    5. Are there any specific concerns, constraints, or risks you want me to account for?
-    6. What is the desired tone? (e.g., formal, polite, assertive/strong, diplomatic, neutral, etc.)
-    7. [Conditional] If the objective involves declaration of delivery of something from my side, do you want to impose a hard deadline or make this blurry?
-    8. [Conditional] If the objective involves requesting an action or a follow-up, do you want to impose a hard deadline?
+    3. What is your primary objective? (e.g., unilateral statement, declaration of delivery of something from my side, requesting a specific action from receiver, negotiating, etc.)
+    4. Are there any specific concerns, constraints, or risks you want me to account for?
+    5. What is the desired tone? (e.g., formal, polite, assertive/strong, diplomatic, neutral, etc.)
+    6. [Conditional] If the objective involves declaration of delivery of something from my side, do you want to impose a hard deadline or make this blurry?
+    7. [Conditional] If the objective involves requesting an action or a follow-up, do you want to impose a hard deadline?
 
-    Once all 6 questions are answered, automatically proceed to <section_2_drafting>.
+    Once all 5 questions are answered, automatically proceed to <section_2_drafting>.
 </section_1_information_gathering>
 
 <section_2_drafting>
