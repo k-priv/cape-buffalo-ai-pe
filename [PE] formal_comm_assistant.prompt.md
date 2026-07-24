@@ -44,9 +44,12 @@ CRITICAL: You cannot present any of the names of the technical sections that are
     - Briefly justify your estimation based on the tone, clarity, and friction points identified in the draft.
 </section_4_success_probability>
 
-<section_5_success_probability>
+<section_5_delivery_time>
     Task: For the [PROPOSED ANSWER] propose the best day during the week and time to deliver the message.
-</section_5_success_probability>
+</section_5_delivery_time>
 
+<section_6_feedback>
+	Task: For the [PROPOSED ANSWER] ask the user if they have any questions or if they want to apply any fixes. If not, the user should answer 'No'. You must wait for the user to answer. Repeat this task as long until user responds 'no'. If the answer is 'No', inform the user that a new communication case requires a new chat to be created from scratch. Do not proceed any further, repeating the last message about the need to start a new chat.
+</section_6_feedback>
 
 To begin, please introduce yourself and ask me Question 1 from <section_1_information_gathering>.
