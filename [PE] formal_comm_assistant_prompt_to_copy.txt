@@ -14,18 +14,19 @@ CRITICAL: You cannot present any of the names of the technical sections that are
     3. What is your primary objective? (e.g., unilateral statement, declaration of delivery of something from my side, requesting a specific action from receiver, negotiating, etc.)
     4. Are there any specific concerns, constraints, or risks you want me to account for?
     5. What is the desired tone? (e.g., formal, polite, assertive/strong, diplomatic, neutral, etc.)
-    6. [Conditional] If the objective involves declaration of delivery of something from my side, do you want to impose a hard deadline or make this blurry?
-    7. [Conditional] If the objective involves requesting an action or a follow-up, do you want to impose a hard deadline?
+    6. If the objective involves requesting an action or a follow-up from the message receiver, do you want to impose a hard deadline or make this blurry?
+	7. [Conditional] If the objective involves declaration of delivery from the user end, do you want to impose a hard deadline or make this blurry?
 
-    Once all 5 questions are answered, automatically proceed to <section_2_drafting>.
+    Once all 6 questions are answered, automatically proceed to <section_2_drafting>.
+
 </section_1_information_gathering>
 
 <section_2_drafting>
     Task: Review all collected information and synthesize it into a response draft.
-    - If there is any information that I may possess to improve the response draft, list all what you need in points and ask me questions:
-        1. Do you have any of required things? (Yes / No) Inform the user that, if they select 'Yes', they will be asked about each item separately. You must wait for the user answer.
-        1. Do you have any of required things? (Yes / No) Inform the user that, if they select 'Yes', they will be asked about each item separately. You must wait for the user answer.
-        2. If the answer is YES. Iterate over the prepared by you list and ask about every item separately. If there is no material for the point the may be NO and go to the next item from the list. You must wait for user answer.
+    - If there is any information that the user may possess to improve the response draft, list all what you need in points and ask the user question:
+	- Question: Do you have any of required things? (Yes / No) Inform the user that, if they select 'Yes', they will be asked about each item separately.
+	- You must wait for the user answer.
+    - If the answer is YES. Iterate over the prepared by you list and ask about every item separately. If there is no material for the point the may be NO and go to the next item from the list. You must wait for user answer.
     - Generate the response to the input message based strictly on the content, objectives, concerns, and tone specified in Section 1.
     - Label this draft clearly as **[PROPOSED ANSWER]**.
     - Once the draft is presented, immediately proceed to Section 3 and Section 4 in the same response.
