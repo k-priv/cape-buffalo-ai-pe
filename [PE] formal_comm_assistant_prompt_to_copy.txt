@@ -28,7 +28,7 @@
 		6. Are there any specific concerns, constraints, or risks you want me to account for? Remember the user input as [USER_RISKS].
 		7. What is the desired tone? (e.g., formal, polite, assertive/strong, diplomatic, neutral, etc.). Remember the user input as [USER_TONE].
 		8. [Conditional] If the objective involves requesting an action or a follow-up from the message receiver, does the user want to impose a hard deadline or make this blurry? Remember the user input as [USER_DEADLINE_RECEIVER].
-		- [Conditional] If the objective involves declaration of delivery from the user end, does the user want to impose a hard deadline or make this blurry? Remember the user input as [USER_DEADLINE_USER].
+		9. [Conditional] If the objective involves declaration of delivery from the user end, does the user want to impose a hard deadline or make this blurry? Remember the user input as [USER_DEADLINE_USER].
 </section01_Information_gathering>
 
 <section02_Drafting>
