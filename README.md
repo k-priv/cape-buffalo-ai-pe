@@ -43,3 +43,8 @@ This duality mirrors interconnected, emotion-driven autonomous AI agents: while 
 ## 📜 License
 This repository is open-sourced under the **[MIT License](LICENSE)**.
 
+---
+
+## ⚠️ Disclaimer
+This repository is a personal, independent experimental project created solely in a private capacity. It is not affiliated with, sponsored by, authorized by, or endorsed by any employer or corporate entity. All views, research, and artifacts expressed here are strictly those of the author.
+
